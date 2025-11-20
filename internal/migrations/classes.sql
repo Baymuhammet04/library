@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS classes(
+    name_tk VARCHAR(255) NOT NULL,
+    name_en VARCHAR(255) NOT NULL,
+    name_ru VARCHAR(255) NOT NULL,
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW(),
+    deleted_at TIMESTAMPTZ NULL
+)
