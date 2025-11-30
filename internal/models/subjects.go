@@ -20,7 +20,7 @@ func (s *Subjects) ToDomain() domain.Subjects{
 		ID: s.ID,
 		NameTk: s.NameTk,
 		NameEn: s.NameEn,
-		NmaeRu: s.NamaeRu,
+		NameRu: s.NamaeRu,
 		CreatedAt: s.CreatedAt,
 		UpdatedAt: s.UpdatedAt,
 		DeletedAt: s.DeletedAt,
